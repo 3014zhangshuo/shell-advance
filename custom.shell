@@ -1,0 +1,10 @@
+.profile 进入终端会执行一遍
+railss() {
+  echo $1
+  cd ..folder
+  rails s -p 6001
+}
+
+railss aaaa
+
+alias l="ls -l"

@@ -1,0 +1,22 @@
+ls
+ls -a   # 包含隐藏文件
+ls -l   # 列展示
+ls -lh  # 文件大小
+ls -lhS # 按从小到大排序
+cp -rf  # r复制目录 f并强制覆盖
+mv test.log test2.log # 重命名
+mv test.log keep/ # 移动
+cat a.txt # 获取内容
+head -n 10 test.log # 文件头部
+tail -n 10 test.log # 文件尾部
+grep ruby a.txt # 过滤
+grep -i rails a.txt # 过滤忽视大小写
+grep -v rails a.txt # 获得未匹配的文本
+tail -f test.log | grep -A 10 -B 10 "error"
+fgrep ruby a.txt
+egrep
+
+# less 只取当前一屏幕的内容 空格翻页 回车下一行
+less test.log
+cat test.log | less
+grep ruby a.txt | less

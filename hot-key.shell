@@ -1,0 +1,18 @@
+export HISTSIZE=1000
+source ~/.profile
+echo $HISTSIZE
+
+mac: control + r 进入命令搜索模式
+
+control + w 已空格为基础往前删除一个单词
+control + k 已空格为基础往后删除所有
+control + u 清空当前行
+control + a 回到行头
+control + e 回到尾部
+
+clear 清空内容 control + l
+mac: command + k 清空当前console内容（并释放内存）
+
+kill
+kill -9
+ps aux | grep ruby

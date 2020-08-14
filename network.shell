@@ -1,0 +1,24 @@
+ifconfig # 查看网卡
+netstat # 查看所有连接端口
+netstat -an | grep LISTEN # 查看所有端口
+
+dig # 查看域名 mx cname
+
+dig google.com # 默认A记录
+dig google.com mx
+
+curl ifconfig.me # 查看本机公网地址
+
+curl -L https://wondercv.com # -L 继续请求301跳转页面
+
+curl -v https://wondercv.com # 头部信息
+
+curl -H 'a=1' -H 'b=1' https://wondercv.com # 设置头部参数
+
+curl -F 'a=1' -F 'b=1' https://wondercv.com # 设置表单参数
+
+curl -X POST
+
+curl -d "" https://wondercv.com # 设置body信息
+
+wget https://wondercv.com

@@ -1,0 +1,30 @@
+w # 查看电脑运行时间和当前进程
+uptime # 查看电脑运行时间
+watch -n 1 "date" # 每隔一秒查看一下时间
+du app.tac # 看见文件大小
+du -h app.tac # 看见文件大小 (可读)
+df / df -h # 查看磁盘大小
+
+chown mysql a.txt # 修改文件用户
+chown mysql:mysql a.txt # 修改文件用户组
+
+chown -R mysql keep/
+
+own group other
+-rw -r-   -r-
+
+
+chmod u=rwx,g=rw,o=x a.txt
+r 读
+w 写
+x 执行
+
+chmod u=rwx,g-w,o=x a.txt
+chmod u=rwx,g+w,o=x a.txt
+chmod -R u=rwx,g+w,o=x /keep
+
+二进制
+111 => 7
+101 => 5
+
+chmod 755 a.txt
